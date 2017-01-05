@@ -19,7 +19,7 @@ bower_components
 # mongo db
 ###################
 #Don't commit Mongo Database files
-*.lock
+#*.lock
 *.0
 *.1
 *.ns

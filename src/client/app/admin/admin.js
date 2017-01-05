@@ -13,6 +13,9 @@
         var vm = this;
 
         vm.title = 'Admin';
+        vm.name = 'Lopo';
+
+        vm.people = [{name: 'luca'}, {name:'nicola'}, {name:'carlo'}, {name:'donata'}];
 
         activate();
 
