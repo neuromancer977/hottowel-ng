@@ -1,4 +1,4 @@
-﻿<section class="mainbar">
+﻿<section class="mainbar" ng-controller="Admin as vm">
     <section class="matter">
         <div class="container">
             <div class="row">
@@ -10,7 +10,7 @@
                         <input ng-model="vm.name" />
                         <ul>
                             <li ng-repeat="person in vm.people">
-                            {{person.name}}
+                            {{person.firstName}}
                             </li>
                         </ul>
                     </div>

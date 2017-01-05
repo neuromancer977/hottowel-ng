@@ -18,12 +18,13 @@
                 url: '/admin',
                 config: {
                     title: 'admin',
-                    controller: 'Admin',
-                    controllerAs: 'vm',
+                    // MEMO: ng-controller="Admin as vm" in admin.html
+                    //controller: 'Admin',
+                    //controllerAs: 'vm', // vm=VIEW_MODEL as in admin.html
                     templateUrl: 'app/admin/admin.html',
                     settings: {
                         nav: 2,
-                        content: '<i class="fa fa-lock"></i> Admin'
+                        content: '<i class="fa fa-lock"></i> Admin' // shown in sidebar
                     }
                 }
             }

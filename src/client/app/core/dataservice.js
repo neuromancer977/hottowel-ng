@@ -28,7 +28,9 @@
                 { firstName: 'Landon', lastName: 'Gates', age: 11, location: 'South Carolina' },
                 { firstName: 'Haley', lastName: 'Guthrie', age: 35, location: 'Wyoming' }
             ];
-            return $q.when(people);
+            return $q.when(people); // promise in real world
+            
+            // return people;
         }
     }
 })();
